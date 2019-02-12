@@ -1,4 +1,4 @@
-#FFMPEG Project
+# FFMPEG Project
 Put four Betty Boop videos in parallel and blend with game of life videos of changing colors.
 
 Two versions of the project:
