@@ -1,4 +1,4 @@
-# create 24 game of life videos each of 5 sec
+# create 25 game of life videos each of 5 sec
 For ($i=0; $i -le 24; $i++) {
 	ffmpeg -f lavfi -i "life=s=60x60:death_color='random':life_color='random':ratio=.5:mold=10:size=ntsc"-sws_flags neighbor -vf scale=640:480,drawgrid=w=6:h=6 -t 5 -pix_fmt yuv420p lifegame$i.mp4
     }
