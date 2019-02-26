@@ -1,0 +1,35 @@
+﻿  Tri.cpp
+  main.cpp
+  ofApp.cpp
+c:\users\alex xu\desktop\stuff\of_v0.10.1_vs2017_release\libs\openframeworks\math\ofvec3f.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (compiling source file src\main.cpp)
+c:\users\alex xu\desktop\stuff\of_v0.10.1_vs2017_release\libs\openframeworks\math\ofvec2f.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (compiling source file src\main.cpp)
+c:\users\alex xu\desktop\stuff\of_v0.10.1_vs2017_release\libs\openframeworks\math\ofvec3f.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (compiling source file src\ofApp.cpp)
+c:\users\alex xu\desktop\stuff\of_v0.10.1_vs2017_release\libs\openframeworks\math\ofvec2f.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (compiling source file src\ofApp.cpp)
+c:\users\alex xu\desktop\stuff\of_v0.10.1_vs2017_release\libs\openframeworks\math\ofvec3f.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (compiling source file Tri.cpp)
+c:\users\alex xu\desktop\stuff\of_v0.10.1_vs2017_release\libs\openframeworks\math\ofvec2f.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (compiling source file Tri.cpp)
+c:\users\alex xu\desktop\stuff\of_v0.10.1_vs2017_release\libs\openframeworks\math\ofmatrix4x4.h(326): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data (compiling source file src\ofApp.cpp)
+c:\users\alex xu\desktop\stuff\of_v0.10.1_vs2017_release\libs\openframeworks\math\ofmatrix4x4.h(331): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data (compiling source file src\ofApp.cpp)
+c:\users\alex xu\desktop\stuff\of_v0.10.1_vs2017_release\libs\openframeworks\math\ofmatrix4x4.h(912): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data (compiling source file src\ofApp.cpp)
+c:\users\alex xu\desktop\stuff\of_v0.10.1_vs2017_release\libs\openframeworks\math\ofmatrix4x4.h(913): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data (compiling source file src\ofApp.cpp)
+c:\users\alex xu\desktop\stuff\of_v0.10.1_vs2017_release\libs\openframeworks\math\ofmatrix4x4.h(914): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data (compiling source file src\ofApp.cpp)
+c:\users\alex xu\desktop\stuff\of_v0.10.1_vs2017_release\libs\openframeworks\math\ofmatrix4x4.h(915): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data (compiling source file src\ofApp.cpp)
+c:\users\alex xu\desktop\stuff\of_v0.10.1_vs2017_release\libs\openframeworks\math\ofmatrix4x4.h(326): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data (compiling source file src\main.cpp)
+c:\users\alex xu\desktop\stuff\of_v0.10.1_vs2017_release\libs\openframeworks\math\ofmatrix4x4.h(331): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data (compiling source file src\main.cpp)
+c:\users\alex xu\desktop\stuff\of_v0.10.1_vs2017_release\libs\openframeworks\math\ofmatrix4x4.h(912): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data (compiling source file src\main.cpp)
+c:\users\alex xu\desktop\stuff\of_v0.10.1_vs2017_release\libs\openframeworks\math\ofmatrix4x4.h(913): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data (compiling source file src\main.cpp)
+c:\users\alex xu\desktop\stuff\of_v0.10.1_vs2017_release\libs\openframeworks\math\ofmatrix4x4.h(914): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data (compiling source file src\main.cpp)
+c:\users\alex xu\desktop\stuff\of_v0.10.1_vs2017_release\libs\openframeworks\math\ofmatrix4x4.h(915): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data (compiling source file src\main.cpp)
+c:\users\alex xu\desktop\stuff\of_v0.10.1_vs2017_release\libs\openframeworks\math\ofmatrix4x4.h(326): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data (compiling source file Tri.cpp)
+c:\users\alex xu\desktop\stuff\of_v0.10.1_vs2017_release\libs\openframeworks\math\ofmatrix4x4.h(331): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data (compiling source file Tri.cpp)
+c:\users\alex xu\desktop\stuff\of_v0.10.1_vs2017_release\libs\openframeworks\math\ofmatrix4x4.h(912): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data (compiling source file Tri.cpp)
+c:\users\alex xu\desktop\stuff\of_v0.10.1_vs2017_release\libs\openframeworks\math\ofmatrix4x4.h(913): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data (compiling source file Tri.cpp)
+c:\users\alex xu\desktop\stuff\of_v0.10.1_vs2017_release\libs\openframeworks\math\ofmatrix4x4.h(914): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data (compiling source file Tri.cpp)
+c:\users\alex xu\desktop\stuff\of_v0.10.1_vs2017_release\libs\openframeworks\math\ofmatrix4x4.h(915): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data (compiling source file Tri.cpp)
+  myProject2.vcxproj -> C:\Users\Alex Xu\Desktop\Stuff\of_v0.10.1_vs2017_release\apps\myApps\myProject2\bin\myProject2_debug.exe
+  
+  	                   2	C:\Users\Alex Xu\Desktop\Stuff\of_v0.10.1_vs2017_release\libs\fmodex\lib\vs\x64\
+  	  *EXTRA File 		 6942208	C:\Users\Alex Xu\Desktop\Stuff\of_v0.10.1_vs2017_release\apps\myApps\myProject2\bin\FreeImage.dll
+  
+  	                   1	C:\Users\Alex Xu\Desktop\Stuff\of_v0.10.1_vs2017_release\libs\FreeImage\lib\vs\x64\
+  	  *EXTRA File 		 1503232	C:\Users\Alex Xu\Desktop\Stuff\of_v0.10.1_vs2017_release\apps\myApps\myProject2\bin\fmodex64.dll
+  	  *EXTRA File 		 1552384	C:\Users\Alex Xu\Desktop\Stuff\of_v0.10.1_vs2017_release\apps\myApps\myProject2\bin\fmodexL64.dll
