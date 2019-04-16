@@ -69,6 +69,10 @@ void ofApp::update() {
                 ofLogNotice() << m << endl;
                 frequency.targetValue = mtof(60);
                 envelope->setGate(1);
+
+				Star currentPlanet;
+				currentPlanet.setup(ofRandom(15, 25));
+				stars.push_back(currentPlanet);
             }
             else{
                 envelope->setGate(0);
