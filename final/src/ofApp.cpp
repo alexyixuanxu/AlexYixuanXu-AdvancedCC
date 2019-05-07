@@ -16,8 +16,8 @@ void ofApp::setup() {
 	text.push_back("\"Oh no I am so, so, so sorry.\" She said."); // img 1
 	text.push_back("You looked at your stained dress."); // 2
 	text.push_back("I don't want her to feel awkward, you thought."); // 3
-	text.push_back("\"Oh it's okay.\" You said."); // 4
-	text.push_back("And smiled."); // 5
+	text.push_back("So you said: \"Oh it's okay.\""); // 4
+	text.push_back("And you smiled."); // 5
 	text.push_back("Smile."); // 6
 
 	text.push_back("He told a joke."); // 7
@@ -26,8 +26,8 @@ void ofApp::setup() {
 	text.push_back("Smile."); // 10
 
 	text.push_back("The noises were giving you headache.");  // 11
-	text.push_back("But you said \"thank you for having me.\""); // 12
-	text.push_back("And gave the host a bright smile."); // 13
+	text.push_back("You said \"thank you for having me\" to the host."); // 12
+	text.push_back("And gave her a bright smile."); // 13
 	text.push_back("Smile."); // 14
 
 	text.push_back("You dragged your body back."); // 15
@@ -74,7 +74,7 @@ void ofApp::setup() {
 
 	// next button
 	nextButtonX = ofGetScreenWidth() - ofGetScreenWidth() / 6;
-	nextButtonY = ofGetScreenHeight() - ofGetScreenHeight() / 3;
+	nextButtonY = ofGetScreenHeight() - ofGetScreenHeight() / 4;
 	nextButton = buttonFont.getStringBoundingBox("NEXT", nextButtonX, nextButtonY);
 
 	// replay button

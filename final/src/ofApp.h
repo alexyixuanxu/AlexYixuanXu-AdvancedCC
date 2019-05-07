@@ -89,7 +89,7 @@ public:
 	ofxCv::ContourFinder contourFinder;
 	float minArea = 1;
 	float maxArea = 500;
-	float threshold = 100;
+	float threshold = 130;
 	bool holes = true;
 
 	// sounds
