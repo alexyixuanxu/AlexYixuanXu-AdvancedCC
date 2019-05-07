@@ -2,6 +2,7 @@
 
 #include "ofMain.h"
 #include "ofxCv.h"
+#include "ofxThreadedImageLoader.h"
 
 // single-person smile strength detector
 // not robust against rotation
@@ -27,14 +28,18 @@ public:
     void update(const cv::Mat& mat) {
         faceFinder.update(mat);
         if(faceFinder.size()) {
+			
             roi = faceFinder.getObject(0);
             float lowerRatio = .35;
             roi.y += roi.height * (1 - lowerRatio);
             roi.height *= lowerRatio;
             cv::Mat faceMat(mat, ofxCv::toCv(roi));
+			
             smileFinder.update(faceMat);
+		
         }
     }
+	/*
     void draw() const {
         faceFinder.draw();
         if(faceFinder.size()) {
@@ -44,6 +49,7 @@ public:
             ofPopMatrix();
         }
 	}
+	*/
     bool getFaceFound() const {
         return faceFinder.size();
     }
@@ -64,17 +70,38 @@ public:
     void setup();
     void update();
     void draw();
-    
-    ofVideoGrabber cam;
-    SmileDetector smile;
+	void mouseReleased(int x, int y, int button);
 
+	void displayScene(string sceneText);
+	void resetScene();
+
+	// text
+	vector<string> text;
+
+	// images
+	vector<ofImage> images;
+	ofxThreadedImageLoader loader;
+	int imgSize = 3;
+
+	// sounds
+	
+    // smile detection
+    ofVideoGrabber cam;
+	bool camOn = false;
+    SmileDetector smile;
 	float smileAmt;
 
-	int num = 0;
-	vector<float> xs;
-	vector<float> ys;
+	// font
+	ofTrueTypeFont textFont;
 
+	// program manager
+	int stage = 0; // 0 is home screen, 1 starts
+
+	bool nextButton = false;
+	
+	// text timer
 	float nextResetTime = 0;
-	float resetIntervalTime = 1;
-	ofImage face;
+	float resetIntervalTime = 0.2;
+	int wordIndex = 0;
+
 };
