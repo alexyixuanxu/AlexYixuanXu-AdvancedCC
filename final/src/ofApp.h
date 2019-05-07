@@ -74,6 +74,7 @@ public:
 
 	void displayScene(string sceneText);
 	void resetScene();
+	void testSmile(float smileReq, float smileAmt);
 
 	// text
 	vector<string> text;
@@ -81,15 +82,19 @@ public:
 	// images
 	vector<ofImage> images;
 	ofxThreadedImageLoader loader;
-	int imgSize = 3;
+	int imgSize = 6; // always need 1 more image than text
 
 	// sounds
+	ofSoundPlayer bgm;
 	
     // smile detection
     ofVideoGrabber cam;
 	bool camOn = false;
     SmileDetector smile;
 	float smileAmt;
+	// text for directing smiles
+	string smileText = "Smile.";
+	vector<string> smileReqTexts;
 
 	// font
 	ofTrueTypeFont textFont;
@@ -97,11 +102,17 @@ public:
 	// program manager
 	int stage = 0; // 0 is home screen, 1 starts
 
-	bool nextButton = false;
+	bool next = false;
+	ofRectangle nextButton;
+	ofRectangle startButton;
+	ofRectangle replayButton;
 	
 	// text timer
 	float nextResetTime = 0;
 	float resetIntervalTime = 0.2;
 	int wordIndex = 0;
 
+	// smile text timer;
+	float nextSmileResetTime = 0;
+	float resetSmileIntervalTime = 1;
 };
