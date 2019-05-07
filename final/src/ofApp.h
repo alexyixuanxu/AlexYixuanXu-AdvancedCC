@@ -82,7 +82,15 @@ public:
 	// images
 	vector<ofImage> images;
 	ofxThreadedImageLoader loader;
-	int imgSize = 6; // always need 1 more image than text
+	int imgSize = 20; // always need 1 more image than text
+	float moveAmt = 1;
+
+	// countour finder
+	ofxCv::ContourFinder contourFinder;
+	float minArea = 1;
+	float maxArea = 500;
+	float threshold = 100;
+	bool holes = true;
 
 	// sounds
 	ofSoundPlayer bgm;
@@ -98,14 +106,24 @@ public:
 
 	// font
 	ofTrueTypeFont textFont;
+	ofTrueTypeFont titleFont;
+	ofTrueTypeFont buttonFont;
 
 	// program manager
 	int stage = 0; // 0 is home screen, 1 starts
 
+	ofRectangle startButton;
+	float startButtonX;
+	float startButtonY;
+
 	bool next = false;
 	ofRectangle nextButton;
-	ofRectangle startButton;
+	float nextButtonX;
+	float nextButtonY;
+
 	ofRectangle replayButton;
+	float replayButtonX;
+	float replayButtonY;
 	
 	// text timer
 	float nextResetTime = 0;
